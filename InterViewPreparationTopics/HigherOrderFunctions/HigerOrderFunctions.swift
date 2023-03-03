@@ -8,16 +8,17 @@
 import UIKit
 
 class HigerOrderFunctions: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         sortData()
     }
 }
 
 // MARK: - Sort related functions
 extension HigerOrderFunctions {
-
+    
     func sortData() {
         let data = [23,1,4,2,1,4,9,0,1]
         
@@ -39,5 +40,15 @@ extension HigerOrderFunctions {
         let normalMap = data.sorted{$0 < $1 }
         
         print(normalMap)
+    }
+}
+
+// MARK: - allSatisfy related functions
+extension HigerOrderFunctions {
+    
+    func allSatisfyCall() {
+        let intValue = [12,13,25,25]
+        let result = intValue.allSatisfy{$0 < 30}
+        print(result)  // true
     }
 }

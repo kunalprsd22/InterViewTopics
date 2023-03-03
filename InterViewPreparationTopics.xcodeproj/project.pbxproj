@@ -155,13 +155,13 @@
 				0CACA4B3289BCD13005CDE4F /* Protocol */,
 				0CACA4B2289BCCFF005CDE4F /* KVO */,
 				0CACA4B1289BCCEC005CDE4F /* Codable */,
-				0CACA4B0289BCCC4005CDE4F /* Class & Structure */,
+				0CACA4B0289BCCC4005CDE4F /* ClassStructure */,
 				0CACA495289BCBF4005CDE4F /* Closure */,
 				0CACA492289BCB9D005CDE4F /* Extension */,
 				0CACA48D289BCB95005CDE4F /* Custom TableView */,
 				0CACA488289BCB8D005CDE4F /* Custom TextField */,
 				0CACA485289BCB83005CDE4F /* Combine */,
-				0CACA480289BC52D005CDE4F /* Higher Order Functions */,
+				0CACA480289BC52D005CDE4F /* HigherOrderFunctions */,
 				0CACA47D289BC50E005CDE4F /* Logs Related Topics */,
 				0CACA469289BC4FE005CDE4F /* AppDelegate.swift */,
 				0CACA4A8289BCC79005CDE4F /* DynamicMemberLookup.swift */,
@@ -185,13 +185,13 @@
 			path = "Logs Related Topics";
 			sourceTree = "<group>";
 		};
-		0CACA480289BC52D005CDE4F /* Higher Order Functions */ = {
+		0CACA480289BC52D005CDE4F /* HigherOrderFunctions */ = {
 			isa = PBXGroup;
 			children = (
 				0CACA481289BC54B005CDE4F /* CustomHigherOrderFunction.swift */,
 				0CACA482289BC54B005CDE4F /* HigerOrderFunctions.swift */,
 			);
-			path = "Higher Order Functions";
+			path = HigherOrderFunctions;
 			sourceTree = "<group>";
 		};
 		0CACA485289BCB83005CDE4F /* Combine */ = {
@@ -237,7 +237,7 @@
 			path = Closure;
 			sourceTree = "<group>";
 		};
-		0CACA4B0289BCCC4005CDE4F /* Class & Structure */ = {
+		0CACA4B0289BCCC4005CDE4F /* ClassStructure */ = {
 			isa = PBXGroup;
 			children = (
 				0CACA4B7289BCE76005CDE4F /* StaticVsClass.swift */,
@@ -245,7 +245,7 @@
 				0CACA4AC289BCC94005CDE4F /* Designated_Convenience_Class.swift */,
 				0CACA4AE289BCC9A005CDE4F /* ClassAndStructAddress.swift */,
 			);
-			path = "Class & Structure";
+			path = ClassStructure;
 			sourceTree = "<group>";
 		};
 		0CACA4B1289BCCEC005CDE4F /* Codable */ = {

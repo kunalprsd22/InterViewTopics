@@ -11,13 +11,10 @@ class Rectangle {
         self.height = height
     }
     
-    
     // here we are taking class name as parameter so we need conveince
-    
     convenience init(aFourthOf rect: Rectangle) {
         self.init(width: rect.width / 2, height: rect.height / 2)
     }
-    
 }
 
 
