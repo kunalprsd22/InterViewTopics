@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C403D7A29A4E253001515E0 /* Hashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C403D7929A4E253001515E0 /* Hashable.swift */; };
+		0C403D7C29A4E5FF001515E0 /* Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C403D7B29A4E5FF001515E0 /* Equatable.swift */; };
+		0C9D5FDB28D318DF0032D536 /* ClosureCapture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9D5FDA28D318DF0032D536 /* ClosureCapture.swift */; };
 		0CA8BD90289BD3EB0015BB2B /* SetupGithub.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0CA8BD8F289BD3EB0015BB2B /* SetupGithub.strings */; };
 		0CACA46A289BC4FE005CDE4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CACA469289BC4FE005CDE4F /* AppDelegate.swift */; };
 		0CACA46C289BC4FE005CDE4F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CACA46B289BC4FE005CDE4F /* SceneDelegate.swift */; };
@@ -43,9 +46,15 @@
 		0CACA4C3289BCEA4005CDE4F /* DifaultMainQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CACA4BF289BCEA4005CDE4F /* DifaultMainQueue.swift */; };
 		0CACA4C4289BCEA4005CDE4F /* DispatchGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CACA4C0289BCEA4005CDE4F /* DispatchGroup.swift */; };
 		0CACA4C6289BCED3005CDE4F /* AsyncTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CACA4C5289BCED3005CDE4F /* AsyncTask.swift */; };
+		0CC07CAC29ADDCDC00FAE4D8 /* AsyncAwait.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC07CAB29ADDCDC00FAE4D8 /* AsyncAwait.swift */; };
+		0CC5F40028A2461A00319340 /* Generics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC5F3FF28A2461A00319340 /* Generics.swift */; };
+		0CCC8BAB289D17A500A7012A /* DispatchWorkItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CCC8BAA289D17A500A7012A /* DispatchWorkItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C403D7929A4E253001515E0 /* Hashable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hashable.swift; sourceTree = "<group>"; };
+		0C403D7B29A4E5FF001515E0 /* Equatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Equatable.swift; sourceTree = "<group>"; };
+		0C9D5FDA28D318DF0032D536 /* ClosureCapture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureCapture.swift; sourceTree = "<group>"; };
 		0CA8BD8F289BD3EB0015BB2B /* SetupGithub.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = SetupGithub.strings; sourceTree = "<group>"; };
 		0CACA466289BC4FE005CDE4F /* InterViewPreparationTopics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InterViewPreparationTopics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CACA469289BC4FE005CDE4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +93,9 @@
 		0CACA4BF289BCEA4005CDE4F /* DifaultMainQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DifaultMainQueue.swift; sourceTree = "<group>"; };
 		0CACA4C0289BCEA4005CDE4F /* DispatchGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DispatchGroup.swift; sourceTree = "<group>"; };
 		0CACA4C5289BCED3005CDE4F /* AsyncTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncTask.swift; sourceTree = "<group>"; };
+		0CC07CAB29ADDCDC00FAE4D8 /* AsyncAwait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwait.swift; sourceTree = "<group>"; };
+		0CC5F3FF28A2461A00319340 /* Generics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generics.swift; sourceTree = "<group>"; };
+		0CCC8BAA289D17A500A7012A /* DispatchWorkItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchWorkItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +109,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C403D7829A4E237001515E0 /* Hashable */ = {
+			isa = PBXGroup;
+			children = (
+				0C403D7929A4E253001515E0 /* Hashable.swift */,
+				0C403D7B29A4E5FF001515E0 /* Equatable.swift */,
+			);
+			path = Hashable;
+			sourceTree = "<group>";
+		};
 		0CA8BD8E289BD3C20015BB2B /* GitHub Setup */ = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +145,9 @@
 		0CACA468289BC4FE005CDE4F /* InterViewPreparationTopics */ = {
 			isa = PBXGroup;
 			children = (
+				0CC07CAA29ADDCC800FAE4D8 /* AsyncAwait */,
+				0C403D7829A4E237001515E0 /* Hashable */,
+				0CC5F3FE28A2460500319340 /* Generics */,
 				0CA8BD8E289BD3C20015BB2B /* GitHub Setup */,
 				0CACA4B6289BCE61005CDE4F /* Thread */,
 				0CACA4B5289BCD40005CDE4F /* Consttraints */,
@@ -208,6 +232,7 @@
 			children = (
 				0CACA498289BCC0F005CDE4F /* ClosureForm.swift */,
 				0CACA496289BCC04005CDE4F /* ClosureSample.swift */,
+				0C9D5FDA28D318DF0032D536 /* ClosureCapture.swift */,
 			);
 			path = Closure;
 			sourceTree = "<group>";
@@ -273,8 +298,25 @@
 				0CACA4C0289BCEA4005CDE4F /* DispatchGroup.swift */,
 				0CACA4BD289BCEA4005CDE4F /* SerialQueueAndConQueue.swift */,
 				0CACA4C5289BCED3005CDE4F /* AsyncTask.swift */,
+				0CCC8BAA289D17A500A7012A /* DispatchWorkItem.swift */,
 			);
 			path = Thread;
+			sourceTree = "<group>";
+		};
+		0CC07CAA29ADDCC800FAE4D8 /* AsyncAwait */ = {
+			isa = PBXGroup;
+			children = (
+				0CC07CAB29ADDCDC00FAE4D8 /* AsyncAwait.swift */,
+			);
+			path = AsyncAwait;
+			sourceTree = "<group>";
+		};
+		0CC5F3FE28A2460500319340 /* Generics */ = {
+			isa = PBXGroup;
+			children = (
+				0CC5F3FF28A2461A00319340 /* Generics.swift */,
+			);
+			path = Generics;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -352,6 +394,7 @@
 			files = (
 				0CACA4C1289BCEA4005CDE4F /* SerialQueueAndConQueue.swift in Sources */,
 				0CACA4A7289BCC73005CDE4F /* GenericConstraints.swift in Sources */,
+				0CC07CAC29ADDCDC00FAE4D8 /* AsyncAwait.swift in Sources */,
 				0CACA4C2289BCEA4005CDE4F /* BlockOperation.swift in Sources */,
 				0CACA49D289BCC3E005CDE4F /* KVO_And_KVC.swift in Sources */,
 				0CACA4A5289BCC6D005CDE4F /* KVOinStruct.swift in Sources */,
@@ -362,13 +405,16 @@
 				0CACA483289BC54B005CDE4F /* CustomHigherOrderFunction.swift in Sources */,
 				0CACA4A3289BCC67005CDE4F /* SwiftDataStructure.swift in Sources */,
 				0CACA4AB289BCC7F005CDE4F /* ManageDifferentData.swift in Sources */,
+				0C9D5FDB28D318DF0032D536 /* ClosureCapture.swift in Sources */,
 				0CACA48B289BCB8D005CDE4F /* CustomTextFieldController.swift in Sources */,
 				0CACA4AF289BCC9A005CDE4F /* ClassAndStructAddress.swift in Sources */,
 				0CACA47F289BC526005CDE4F /* CheckLogsVC.swift in Sources */,
 				0CACA4C3289BCEA4005CDE4F /* DifaultMainQueue.swift in Sources */,
+				0C403D7A29A4E253001515E0 /* Hashable.swift in Sources */,
 				0CACA49F289BCC56005CDE4F /* CodableEncodable.swift in Sources */,
 				0CACA4BA289BCE81005CDE4F /* OsLog.swift in Sources */,
 				0CACA4B8289BCE76005CDE4F /* StaticVsClass.swift in Sources */,
+				0CCC8BAB289D17A500A7012A /* DispatchWorkItem.swift in Sources */,
 				0CACA4AD289BCC94005CDE4F /* Designated_Convenience_Class.swift in Sources */,
 				0CACA48C289BCB8D005CDE4F /* FirstResponderControl.swift in Sources */,
 				0CACA4A9289BCC79005CDE4F /* DynamicMemberLookup.swift in Sources */,
@@ -377,8 +423,10 @@
 				0CACA4C4289BCEA4005CDE4F /* DispatchGroup.swift in Sources */,
 				0CACA46E289BC4FE005CDE4F /* ViewController.swift in Sources */,
 				0CACA4C6289BCED3005CDE4F /* AsyncTask.swift in Sources */,
+				0C403D7C29A4E5FF001515E0 /* Equatable.swift in Sources */,
 				0CACA490289BCB95005CDE4F /* OwnView.swift in Sources */,
 				0CACA46A289BC4FE005CDE4F /* AppDelegate.swift in Sources */,
+				0CC5F40028A2461A00319340 /* Generics.swift in Sources */,
 				0CACA46C289BC4FE005CDE4F /* SceneDelegate.swift in Sources */,
 				0CACA4A1289BCC5D005CDE4F /* ManageTwoClassinSingle.swift in Sources */,
 			);
